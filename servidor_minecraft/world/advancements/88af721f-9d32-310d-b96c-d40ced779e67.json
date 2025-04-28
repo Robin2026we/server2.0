@@ -393,5 +393,17 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-04-28 19:38:04 +0000"
+    },
+    "done": true
+  },
+  "spore:freezing_protocole": {
+    "criteria": {
+      "pick_up_cdu": "2025-04-28 19:45:32 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
