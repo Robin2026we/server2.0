@@ -353,6 +353,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:spider": "2025-04-27 23:46:25 +0000",
+      "minecraft:slime": "2025-04-28 20:03:22 +0000",
       "minecraft:witch": "2025-04-28 02:13:31 +0000",
       "minecraft:zombie": "2025-04-27 23:38:19 +0000"
     },
@@ -397,6 +398,12 @@
   "webdisplays:root": {
     "criteria": {
       "has_glass_pane": "2025-04-28 04:16:53 +0000"
+    },
+    "done": true
+  },
+  "quark:get_diamond_heart": {
+    "criteria": {
+      "get_diamond_heart": "2025-04-28 20:03:17 +0000"
     },
     "done": true
   },
