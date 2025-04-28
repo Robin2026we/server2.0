@@ -354,6 +354,7 @@
     "criteria": {
       "minecraft:spider": "2025-04-27 23:46:25 +0000",
       "minecraft:slime": "2025-04-28 20:03:22 +0000",
+      "quark:forgotten": "2025-04-28 20:13:16 +0000",
       "minecraft:witch": "2025-04-28 02:13:31 +0000",
       "minecraft:zombie": "2025-04-27 23:38:19 +0000"
     },
@@ -410,6 +411,12 @@
   "spore:inquisitor": {
     "criteria": {
       "hurt_by_infected": "2025-04-28 19:52:06 +0000"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2025-04-28 20:13:18 +0000"
     },
     "done": true
   },
