@@ -400,5 +400,11 @@
     },
     "done": true
   },
+  "spore:inquisitor": {
+    "criteria": {
+      "hurt_by_infected": "2025-04-28 19:52:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

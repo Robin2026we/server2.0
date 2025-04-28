@@ -3451,3 +3451,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [28Apr2025 19:45:33.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:cannibal but it was marked as removed already
 [28Apr2025 19:46:31.272] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
 [28Apr2025 19:46:33.975] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[28Apr2025 19:49:41.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PetterX: Teleported PetterX to Francisco_55]
+[28Apr2025 19:52:06.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PetterX has made the advancement [The Spanish Inquisition is back!]
+[28Apr2025 19:52:13.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PetterX: Teleported PetterX to Francisco_55]
+[28Apr2025 19:58:21.809] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
