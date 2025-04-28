@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5luchando_por_la_supervivencia"
+	group: ""
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 5
+			GunFireMode: "SEMI"
+			GunId: "tacz:m870"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "442EA54038A8A9F3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B8306D81814A1E2"
+			rewards: [
+				{
+					count: 20
+					id: "4541C6FF6D4255DC"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D545D59ACCC6782"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&rExplora al menos un laboratorio infestado del &5Hongo &ry mantente alerta, hay hongos que caminan y muerden."
+			tasks: [{
+				icon: "doggytalents:lab_coat"
+				id: "4CFB9B1839FCEBCE"
+				structure: "spore:lab"
+				title: "&4Nido fúngico"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "tacz:target"
+			id: "7BC8CDDAB35BB938"
+			rewards: [
+				{
+					id: "244F61F064D25CDC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "35CC9160F36CFF78"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m95"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Elimina al menos 1000 infectados de cualquier tipo &4hostil"
+			tasks: [{
+				id: "6F22BBFF889128A3"
+				stat: "minecraft:mob_kills"
+				title: "&2Las cuentan"
+				type: "stat"
+				value: 1000
+			}]
+			title: "&2Las bajas cuentan"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Level: 2
+				}
+			}
+			id: "0C733A17E60CA5C0"
+			require_sequential_tasks: true
+			rewards: [
+				{
+					count: 3
+					id: "60B95BE1800265CB"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "08981F75AACCEB98"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Elimina tantos zombi como puedas recuerda que esta mision la puedes volver hacer cuando te quedes sin municion!"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "22C8C45294A4BEC2"
+				title: "&6Reserva de municion renovable!"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B8306D81814A1E2"]
+			id: "28FC3CB2DA824237"
+			rewards: [
+				{
+					count: 10
+					id: "7C09B1CB330752FE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "73F00E29A2D581D6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Elimina al menos 10 cientificos infectados en el laboratorio"
+			tasks: [{
+				entity: "spore:inf_hazmat"
+				icon: "prionmod:envoy_spawn_egg"
+				id: "76D5379C2E84763C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&4Cientificos locos"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B8306D81814A1E2"]
+			id: "7AC362FD60BA7015"
+			rewards: [
+				{
+					id: "04F9524B198D2FB1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "377007145AF1456E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "Haz una mascara de gas o encuentrala"
+			tasks: [{
+				id: "0EA9367C692F0510"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "spore:gas_mask"
+				}
+				type: "item"
+			}]
+			title: "&7Lo necesario para la supervivencia"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "3F7306A760ABE54A"
+			rewards: [
+				{
+					id: "21C90A5B75226343"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "022EDA455A794367"
+					item: "securitycraft:universal_block_reinforcer_lvl3"
+					type: "item"
+				}
+				{
+					id: "4C556555804E6556"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 75
+							GunFireMode: "AUTO"
+							GunId: "tacz:m249"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "spore:howitzer"
+				icon: "doomsday_decoration:remains_1"
+				id: "2F000AC2BFF68066"
+				title: "La Calamidad"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4¡Coloso en la Niebla!"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "56C117EB857DCABF"
+			invisible: true
+			rewards: [{
+				id: "5D96FF2AA893E75B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6529CB928388F092"
+				title: "Cumplimiento de misiones"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+	]
+	title: "&4Luchando por la Supervivencia"
+}

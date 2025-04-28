@@ -1,0 +1,17 @@
+{
+	id: "58193a45-546a-346a-80a9-e4a992ad80bf"
+	type: "player"
+	player_name: "PetterX"
+	ranks: {
+		58193a45-546a-346a-80a9-e4a992ad80bf: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "PetterX"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFD059"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
